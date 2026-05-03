@@ -26,9 +26,16 @@ function App() {
 
   }
 
+  const [name,setName]=useState("krushna")
+
   return (
     <>
+  
+    <h1>This is Name:{name}</h1>
+
+    <button onClick={()=>setName('deore')}> click</button>
     <Add user={UserData}/>
+    
     <hr></hr>
     <Add user={Employe}/>
      

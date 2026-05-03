@@ -1,0 +1,11 @@
+.props{
+
+  background-color: aqua;
+  color: black;
+  border: 5px solid green;
+  border-color: antiquewhite;
+  position: relative;
+  left: auto;
+  text-decoration:dotted;
+
+}
